@@ -1,0 +1,21 @@
+
+svg {
+  border: 1px solid black;
+  background-color: black;
+
+  width: 400px;
+  height: 200px;
+}
+
+/*
+#svg {
+    border: 1px solid red;
+    height: 100px;
+    width: 300px;
+}
+
+#image0 ellipse {
+    fill: red;
+    stroke-width: 5px;
+}
+*/

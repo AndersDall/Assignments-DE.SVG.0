@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>svg</title>
+        <link rel='stylesheet' href='./style.css'/>
+    </head>
+    <body>
+      <h1>Assignment DE.SVG.0</h1>
+      <p>Create an HTML5 page with a 400 x 200 pixel SVG inlined.</p>
+      <p>The SVG must contain a yellow 10 pixel radius disk in the middle.</p>
+      <p>It must also have blue ellipsis drawn so that its horisontal and vertical minimum and maximum coordinates are just 10 pixel inside the size of the SVG viewbox.</p>
+      <p>The SVG background color must be black. You must code the SVG by hand. No drawing programs allowed.</p>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 400 200">
+            <!-- circle in the middle -->
+            <circle cx='200' cy='100' r='10'stroke='yellow' stroke-width='0' fill='yellow'/>
+            <!-- elipse with max 10px to borders -->
+            <ellipse cx='200' cy='100' rx='186' ry='86' stroke='blue' fill='transparent' stroke-width='2'/>
+        </svg>
+      </div>
+    </body>
+</html>
